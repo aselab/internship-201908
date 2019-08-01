@@ -1,9 +1,23 @@
 import React,{ Component } from 'react';
+import moment from 'moment';
 import { Text, TextInput, View, StyleSheet } from 'react-native';
 import { Card } from 'react-native-elements';
 
-export default class StickyNote extends Component
-{
+export default class StickyNote extends Component {
+
+  state = {
+    isDateTimePickerVisible: false,
+    limitDateTime: moment().format('YYYY年MM月DD日 HH時mm分')
+  };
+
+  showDateTimePicker = () => this.setState({ isDateTimePickerVisible : true });
+  hideDateTimePicker = () => this.setState({ isDateTimePickerVisible : false });
+
+  setDateTime = dateTime => 
+    this.setState({ 
+      limitDateTime : moment().format('YYYY年MM月DD日 HH時mm分'), 
+    });
+
   render () 
   {
     return (
