@@ -7,7 +7,18 @@ export default class StickyNote extends Component
   render () 
   {
     return (
-      <Card containerStyle={styles.card} title="今日の目標"> 
+      <Card containerStyle={styles.card} title=
+      {
+        <view>
+          <TextInput 
+            placeholder="題名を入力"
+            placeholderTextColor="#c7c7c7"
+            multiline
+            underlineColorAndroid={'rgba(0,0,0,0)'}
+          />
+        </view>
+      }
+      > 
         <TextInput 
           placeholder="内容を入力"
           placeholderTextColor="#c7c7c7"
