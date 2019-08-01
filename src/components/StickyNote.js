@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, TextInput, View, StyleSheet } from 'react-native';
 import { Card } from 'react-native-elements';
 
 export default class StickyNote extends Component
@@ -8,10 +8,14 @@ export default class StickyNote extends Component
   {
     return (
       <Card containerStyle={styles.card} title="今日の目標"> 
-        <Text>付箋アプリの完成</Text>
+        <TextInput 
+          placeholder="内容を入力"
+          placeholderTextColor="#c7c7c7"
+          multiline
+          underlineColorAndroid={'rgba(0,0,0,0)'}
+        />
         <View style={styles.datetimeContainer}> 
           <Text>期限：</Text>
-          <Text>2019/08/21 00:00</Text>
         </View>
       </Card>
     );
