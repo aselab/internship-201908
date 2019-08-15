@@ -1,0 +1,20 @@
+■ スライド公開リポジトリ
+    https://github.com/aselab/internship-201908
+
+■ コード公開リポジトリ
+    準備中
+
+■ JS用bIDE
+    https://js.do/
+
+■ JavaScript リファレンス
+    https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference
+
+■　expo公式
+    https://expo.io/
+
+■　expo snack公式
+    https://snack.expo.io
+
+■　expoサインイン
+    https://expo.io/signup
