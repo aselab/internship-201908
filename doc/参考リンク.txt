@@ -2,9 +2,9 @@
     https://github.com/aselab/internship-201908
 
 ■ コード公開リポジトリ
-    準備中
+    https://github.com/aselab/internship-201908-src/commits/master 
 
-■ JS用bIDE
+■ JS用IDE
     https://js.do/
 
 ■ JavaScript リファレンス
@@ -18,3 +18,9 @@
 
 ■　expoサインイン
     https://expo.io/signup
+
+■  react-native公式DOC
+    https://facebook.github.io/react-native/docs/text
+
+■　CSSinJS
+    https://facebook.github.io/react-native/docs/stylesheet
