@@ -2,7 +2,7 @@
     https://github.com/aselab/internship-201908
 
 ■ コード公開リポジトリ
-    https://github.com/aselab/internship-201908-src/commits/master 
+    https://github.com/aselab/internship-201909-src/commits/master
 
 ■ JS用IDE
     https://js.do/
